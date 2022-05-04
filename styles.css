@@ -17,15 +17,15 @@ align-items: center;
 background-color: rgba(112, 88, 175, 0);
 border-radius: 10%;
 padding-top: 20px;
-padding-bottom: 10px;
+padding-bottom: 20px;
 margin: 0 auto;
 width: 30%
 }
 
 h1 {
-margin: 0 auto;
+margin: 1 auto;
 margin-bottom: 20px;
-    
+
 }
 
 h3 {
@@ -64,7 +64,7 @@ margin: 0px auto;
 
 
 .container {
-border-top: 2px solid #000;
+border-top: 2px solid rgb(97, 41, 160);
 display: flex;
 list-style: none;
 padding: 0;
@@ -80,10 +80,10 @@ width: 100%;
 }
 
 .link a {
-font-weight: bold;
+font-weight: bolder;
 text-decoration: none;
-color: black;
-text-transform: uppercase;
+color: rgb(0, 0, 0);
+text-transform: arial;
 font-size: 15px;
 }
 
@@ -99,18 +99,18 @@ margin-right: -55px;
 content: "";
 width: 10px;
 height: 10px;
-background: #fff;
+background: rgb(255, 255, 255);
 position: absolute;
 border-radius: 10px;
 top: -18px;
 left: 50%;
 transform: translatex(-50%);
-border: 2px solid black;
+border: 2px solid rgb(0, 0, 0);
 }
 
 .active::after,
 .link:hover::after {
-background: black;
+background: rgb(0, 0, 0);
 }
 
 p.lead {
